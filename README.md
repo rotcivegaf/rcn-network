@@ -1,6 +1,8 @@
 
 # RCN
 
+[![Status](https://github.com/rotcivegaf/rcn-network/workflows/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions)
+
 [![Status](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint)
 
 [![Status](https://github.com/rotcivegaf/rcn-network/actions/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint)
