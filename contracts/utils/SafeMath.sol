@@ -1,7 +1,9 @@
-pragma solidity ^0.5.11;
+pragma solidity ^0.6.6;
 
 
 library SafeMath {
+    using SafeMath for uint256;
+
     function add(uint256 x, uint256 y) internal pure returns (uint256) {
         uint256 z = x + y;
         require(z >= x, "Add overflow");
@@ -21,5 +23,15 @@ library SafeMath {
         uint256 z = x * y;
         require(z/x == y, "Mult overflow");
         return z;
+    }
+
+    function div(uint256 x, uint256 y) internal pure returns (uint256) {
+        require(y != 0, "Div by zero");
+        return x / y;
+    }
+
+    function multdiv(uint256 x, uint256 y, uint256 z) internal pure returns (uint256) {
+        require(z != 0, "div by zero");
+        return x.mult(y) / z;
     }
 }
