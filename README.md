@@ -1,13 +1,6 @@
 
 # RCN
 
-[![Status](https://github.com/rotcivegaf/rcn-network/workflows/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions)
-
-[![Status](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint)
-
-[![Status](https://github.com/rotcivegaf/rcn-network/actions/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint)
-
-
 [![Lint Status](https://github.com/rotcivegaf/rcn-network/workflows/Lint/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ALint)
 [![Test Status](https://github.com/rotcivegaf/rcn-network/workflows/Test/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ATest)
 [![Coverage Status](https://github.com/rotcivegaf/rcn-network/workflows/Coverage/badge.svg)](https://github.com/rotcivegaf/rcn-network/actions?query=workflow%3ACoverage)
